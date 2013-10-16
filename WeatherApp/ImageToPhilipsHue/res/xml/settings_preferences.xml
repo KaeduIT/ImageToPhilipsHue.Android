@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+       android:key="KEY_PREF_USER_NAME"
+       android:title="@string/pref_user_name_title_text"
+       android:summary="@string/pref_user_name_summary_text"
+       android:dialogTitle="@string/pref_user_name_dlg_text"
+       android:defaultValue="@string/pref_user_name_default" />
+
+    <EditTextPreference
+       android:key="KEY_PREF_DEVICE_NAME"
+       android:title="@string/pref_device_name_title_text"
+       android:summary="@string/pref_device_name_summary_text"
+       android:dialogTitle="@string/pref_device_name_dlg_text"
+       android:defaultValue="@string/pref_device_name_default" />
+
+    <EditTextPreference
+       android:key="KEY_PREF_BRIDGE_IP"
+       android:title="@string/pref_ip_address_title_text"
+       android:summary="@string/pref_ip_address_summary_text"
+       android:dialogTitle="@string/pref_ip_address_dlg_text"
+       android:defaultValue="@string/pref_ip_address_default" />
+
+ <!--
+    <CheckBoxPreference
+        android:key="pref_sync"
+        android:title="@string/pref_sync"
+        android:summary="@string/pref_sync_summ"
+        android:defaultValue="true" />
+    <ListPreference
+        android:dependency="pref_sync"
+        android:key="pref_syncConnectionType"
+        android:title="@string/pref_syncConnectionType"
+        android:dialogTitle="@string/pref_syncConnectionType"
+        android:entries="@array/pref_syncConnectionTypes_entries"
+        android:entryValues="@array/pref_syncConnectionTypes_values"
+        android:defaultValue="@string/pref_syncConnectionTypes_default" />
+ -->
+
+</PreferenceScreen>
