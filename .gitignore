@@ -15,6 +15,7 @@ local.properties
 .classpath
 .settings/
 .loadpath
+res/values/maps_api_key.xml
 
 # External tool builders
 .externalToolBuilders/
