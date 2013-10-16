@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- Action button -->
+    <item android:id="@+id/action_send_image"
+          android:icon="@drawable/action_send_image"
+          android:title="@string/act_send_image"
+          android:showAsAction="ifRoom" />
+
+    <item android:id="@+id/action_weather_forecast"
+          android:icon="@drawable/action_weather_forecast"
+          android:title="@string/act_weather_forecast"
+          android:showAsAction="ifRoom" android:visible="true" android:enabled="true"/>
+
+    <!-- Overflow items -->
+    <item
+          android:id="@+id/action_settings"
+          android:orderInCategory="1"
+          android:showAsAction="ifRoom|withText"
+	  android:icon="@drawable/action_settings"
+          android:title="@string/act_settings"/>
+        
+    <item
+          android:id="@+id/action_help"
+          android:orderInCategory="2"
+          android:showAsAction="ifRoom|withText"
+	  android:icon="@drawable/action_help"
+          android:title="@string/act_help"/>
+
+</menu>
